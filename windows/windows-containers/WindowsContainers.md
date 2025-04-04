@@ -1,4 +1,4 @@
-## Getting Started with Windows Containers
+# Getting Started with Windows Containers
 
 This chapter will cover the basics of using Windows Containers with Docker.
 
@@ -10,7 +10,7 @@ First pull a Docker image which you can use to run a Windows container:
 docker image pull mcr.microsoft.com/windows/nanoserver:1809
 ```
 
-This downloads Microsoft's [Nano Server](https://hub.docker.com/_/microsoft-windows-nanoserver) Docker image onto your environment. That image is a minimal Windows server operating system, packaged to run as a Docker container. You can use it as the base for your own apps, or you can run containers from it directly.
+This downloads Microsoft's [Nano Server](https://hub.docker.com/_/microsoft-windows-nanoserver) Docker image onto your environment. Thatdocker image pull mcr.microsoft.com/windows/nanoserver:1809 image is a minimal Windows server operating system, packaged to run as a Docker container. You can use it as the base for your own apps, or you can run containers from it directly.
 
 Try a simple container, passing a command for the container to run:
 
